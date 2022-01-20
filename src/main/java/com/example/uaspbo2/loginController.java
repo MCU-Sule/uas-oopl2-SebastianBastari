@@ -29,7 +29,7 @@ public class loginController {
 
     @FXML
     void loginAction(ActionEvent event) throws IOException {
-        if (txtId.getText().equals("1972006")&&txtPass.getText().equals("a123")){
+        if (txtId.getText().equals("1972006")&&txtPass.getText().equals("12345")){
             Stage new_stage = new Stage();
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("main-view.fxml"));
